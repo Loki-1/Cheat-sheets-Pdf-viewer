@@ -1,1 +1,30 @@
+****Container related commands***
+1. Run a container in interactive mode:
+$ docker run -it ubuntu /bin/bash # Run a bash shell inside an image
 
+2. Run a container in detached mode:
+$ docker run --name mywildfly -d -p 8080:8080 jboss/wildfly
+
+3. Run a detached container in a previously created docker network:
+$ docker network create mynetwork
+$ docker run --name mywildfly-net -d --net mynetwork -p 8080:8080 jboss/wildfly
+
+4. Run a detached container mounting a local folder inside the container:
+$ docker run --name mywildfly-volume -d \
+-v myfolder/:/opt/jboss/wildfly/standalone/deployments/ \
+-p 8080:8080 jboss/wildfly
+
+5. Follow the logs of a specific container
+$ docker logs -f mywildfly
+$ docker logs -f <container-name>
+
+6. List containers
+$ docker ps # List only active containers
+$ docker ps -a # List all containers
+
+7. Stop a container
+$ docker stop <container-name> # Stop a container
+$ docker stop -t 1 <container-name> # Stop a container (timeout = 1 second)
+
+8. Remove a container
+$ docker rm <container-name>
