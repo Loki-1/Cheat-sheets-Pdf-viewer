@@ -1,4 +1,5 @@
 ****Container related commands***
+
 1. Run a container in interactive mode:
 $ docker run -it ubuntu /bin/bash # Run a bash shell inside an image
 
