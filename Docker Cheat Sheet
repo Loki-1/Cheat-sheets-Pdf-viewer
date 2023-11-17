@@ -51,4 +51,6 @@ restart --> Restart a container
 rm --> Remove/delete one or more containers
 run --> Run a command in a new container
 start --> Start one or more containers
-stop --> Stop a container by sending SIGTERM then SIGKILL after a grace
+stop --> Stop a container by sending SIGTERM then SIGKILL after a grace period.
+top --> Display the running processes of a container
+unpause --> Unpause all processes within a container
