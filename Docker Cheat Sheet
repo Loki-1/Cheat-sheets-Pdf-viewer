@@ -26,5 +26,8 @@ $ docker ps -a # List all containers
 $ docker stop <container-name> # Stop a container
 $ docker stop -t 1 <container-name> # Stop a container (timeout = 1 second)
 
+9. Execute a new process in an existing container
+$ docker exec -it mywildfly /bin/bash # Executes and access bash inside a WildFly container
+
 8. Remove a container
 $ docker rm <container-name>
