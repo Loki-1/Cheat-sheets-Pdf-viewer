@@ -55,6 +55,3 @@ start --> Start one or more containers
 stop --> Stop a container by sending SIGTERM then SIGKILL after a grace period.
 top --> Display the running processes of a container
 unpause --> Unpause all processes within a container
-
-**Image related commands*8
-docker [CMD] [OPTS] IMAGE
