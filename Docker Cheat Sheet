@@ -1,3 +1,5 @@
+**Image related commands*8
+docker [CMD] [OPTS] IMAGE
 
 ****Container related commands***
 
