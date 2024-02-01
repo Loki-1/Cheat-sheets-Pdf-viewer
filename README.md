@@ -1,4 +1,4 @@
-https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&link=https%3A%2F%2Fgithub.com%2FLoki-1%2FCheat-sheets
+![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&link=https%3A%2F%2Fgithub.com%2FLoki-1%2FCheat-sheets)
 
 # DevOps Cheatsheets
 
